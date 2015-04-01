@@ -1,6 +1,16 @@
 function Start_TUe
+    INIT_TOOLBOXES  = 0;
+    START_DIR       = 'Thesis';
+
     add_paths;
-    init_toolboxes;
+    
+    if INIT_TOOLBOXES
+        init_toolboxes;
+    end
+    
+    if exist(START_DIR)
+        goto_directory(START_DIR);
+    end
     
     function add_paths
         addpath('/Users/rodrigo/Documents/MATLAB/MATLAB_shared/Utility/');
@@ -10,5 +20,10 @@ function Start_TUe
 
     function init_toolboxes
         psysound3;
+    end
+
+    function goto_directory(dir)
+        paths = Get_TUe_paths;
+        cd(paths.(dir));
     end
 end
