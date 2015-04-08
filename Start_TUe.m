@@ -8,7 +8,7 @@ function Start_TUe
         init_toolboxes;
     end
     
-    if exist(START_DIR,'var')
+    if exist('START_DIR','var')
         goto_directory(START_DIR);
     end
     
