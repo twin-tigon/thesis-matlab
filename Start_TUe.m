@@ -1,6 +1,6 @@
 function Start_TUe
     INIT_TOOLBOXES  = 0;
-    START_DIR       = 'Thesis';
+    START_DIR       = 'FluctuationStrength';
 
     add_paths;
     
