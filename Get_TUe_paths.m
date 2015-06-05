@@ -5,6 +5,7 @@ function paths = Get_TUe_paths
 
     paths.DSP           = [MATLAB_shared 'DSP' delim];
     paths.matlab2tikz   = [MATLAB_shared 'matlab2tikz' delim];
+    paths.Other         = [MATLAB_shared 'Other' delim];
     paths.APEX          = [MATLAB_shared 'tb_APEX' delim];
     paths.APEXtools     = [paths.APEX 'tools' delim];
 %     paths.PsySound32    = [MATLAB_shared 'tb_PsySound32' delim];
