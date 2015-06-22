@@ -8,7 +8,7 @@ function path = Get_path(name)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    paths.FluctuationStrengthTones = [ ...
+    paths.Stimulus = [ ...
         '/Users/rodrigo/VirtualBox VMs/Luxuria/share/APEX_shared/stimulus/'
     ];
     
