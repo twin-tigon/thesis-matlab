@@ -8,8 +8,18 @@ function path = Get_path(name)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    paths.Stimulus = [ ...
-        '/Users/rodrigo/VirtualBox VMs/Luxuria/share/APEX_shared/stimulus/'
+    APEX_shared = '/Users/rodrigo/Documents/TUe/thesis/apex/APEX_shared/';
+    LaTeX       = '/Users/rodrigo/Documents/TUe/thesis/latex/';    
+
+    paths.APEX_stimulus     = [ APEX_shared 'stimulus/' ];
+    paths.APEX_experiment   = [ APEX_shared 'experiment/' ];
+    paths.APEX_result       = [ APEX_shared 'result/' ]; 
+    
+    paths.LaTeX_FluctuationStrength_TestBattery_img = [ ...
+        LaTeX ...
+        'fluctuation_strength/' ...
+        'test_battery/' ...
+        'img/' ...
     ];
     
     if ~isfield(paths,name)
