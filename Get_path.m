@@ -8,7 +8,7 @@ function path = Get_path(name)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    APEX_shared = '/Users/rodrigo/Documents/TUe/thesis/apex/APEX_shared/';
+    APEX_shared = '/Users/rodrigo/VirtualBox VMs/Luxuria/share/APEX_shared/';
     LaTeX       = '/Users/rodrigo/Documents/TUe/thesis/latex/';    
 
     paths.APEX_stimulus     = [ APEX_shared 'stimulus/' ];
