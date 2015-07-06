@@ -7,7 +7,7 @@ function paths = Get_TUe_paths
     paths.Other = [MATLAB_shared 'Other' delim];
     
     RECURSIVE_PATHS = {
-        [Psychoacoustics 'FluctuationStrength_Rodrigo'];
+        [Psychoacoustics 'FluctuationStrength'];
         [MATLAB_shared 'tb_APEX'];
 %         [MATLAB_shared 'tb_PsySound32'];
     };
