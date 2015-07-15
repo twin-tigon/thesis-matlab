@@ -8,6 +8,8 @@ function path = Get_path(name)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+    paths = Get_TUe_paths;
+
     APEX_shared = '/Users/rodrigo/VirtualBox VMs/Luxuria/share/APEX_shared/';
     LaTeX       = '/Users/rodrigo/Documents/TUe/thesis/latex/';    
 
