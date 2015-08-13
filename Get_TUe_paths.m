@@ -4,7 +4,6 @@ function paths = Get_TUe_paths
     Psychoacoustics     = [MATLAB_shared 'Psychoacoustics' delim];
 
     paths.DSP       = [MATLAB_shared 'DSP' delim];
-    paths.Other     = [MATLAB_shared 'Other' delim];
     paths.Utility   = [MATLAB_shared 'Utility' delim];
     
     RECURSIVE_PATHS = {
