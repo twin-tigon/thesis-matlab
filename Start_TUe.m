@@ -19,7 +19,8 @@ function Start_TUe
     end
 
     function init_toolboxes
-        psysound3;
+%         psysound3;
+        amtstart;
     end
 
     function goto_directory(dir)

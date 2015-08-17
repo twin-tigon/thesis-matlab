@@ -10,6 +10,7 @@ function paths = Get_TUe_paths
         [Psychoacoustics 'FluctuationStrength'];
         [MATLAB_shared 'tb_APEX'];
         [MATLAB_shared 'tb_APEX_AddOns'];
+        [MATLAB_shared 'tb_AMT'];
 %         [MATLAB_shared 'tb_PsySound32'];
     };
 
