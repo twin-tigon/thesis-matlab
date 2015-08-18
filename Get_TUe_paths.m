@@ -32,8 +32,10 @@ function paths = Get_TUe_paths
         if isfield(paths,name)
             return
         end
-        
+
+        warning('off');
         paths.(name) = [path delim];
+        warning('on');
     end
 
     function basename = get_basename(path)
