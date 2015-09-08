@@ -32,6 +32,10 @@ function path = Get_path(name)
     paths.LaTeX_FluctuationStrength_Pilot_img = [ ...
         LaTeX_FluctuationStrength 'pilot/' 'img/'
     ];
+
+    paths.LaTeX_FluctuationStrength_Model_img = [ ...
+        LaTeX_FluctuationStrength 'model/' 'img/'
+    ];
     
     if ~isfield(paths,name)
         error('The requested path has not been defined!');
