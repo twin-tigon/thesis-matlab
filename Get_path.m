@@ -14,7 +14,7 @@ function path = Get_path(name)
         'APEX_shared/'];
     
     LaTeX = '/Users/rodrigo/Documents/TUe/thesis/latex/';
-    
+        
     LaTeX_FluctuationStrength = [LaTeX 'topic/fluctuation_strength/'];
 
     paths.APEX_stimulus     = [ APEX_shared 'stimulus/' ];
@@ -22,19 +22,23 @@ function path = Get_path(name)
     paths.APEX_result       = [ APEX_shared 'result/' ];
     
     paths.LaTeX_FluctuationStrength_Experiment_img = [ ...
-        LaTeX_FluctuationStrength 'experiment/' 'img/'
+        LaTeX_FluctuationStrength 'experiment/img/'
     ];
 
     paths.LaTeX_FluctuationStrength_TestBattery_img = [ ...
-        LaTeX_FluctuationStrength 'test_battery/' 'img/'...
+        LaTeX_FluctuationStrength 'test_battery/img/'...
     ];
 
     paths.LaTeX_FluctuationStrength_Pilot_img = [ ...
-        LaTeX_FluctuationStrength 'pilot/' 'img/'
+        LaTeX_FluctuationStrength 'pilot/img/'
     ];
 
     paths.LaTeX_FluctuationStrength_Model_img = [ ...
-        LaTeX_FluctuationStrength 'model/' 'img/'
+        LaTeX_FluctuationStrength 'model/img/'
+    ];
+
+    paths.LaTeX_FluctuationStrength_Model_Data_Fitting_img = [ ...
+        LaTeX_FluctuationStrength 'model/data_fitting/img/'
     ];
     
     if ~isfield(paths,name)
