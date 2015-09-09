@@ -8,6 +8,7 @@ function paths = Get_TUe_paths
     
     RECURSIVE_PATHS = {
         [Psychoacoustics 'FluctuationStrength'];
+        [Psychoacoustics 'Roughness'];
         [MATLAB_shared 'tb_APEX'];
         [MATLAB_shared 'tb_APEX_AddOns'];
         [MATLAB_shared 'tb_AMT'];
