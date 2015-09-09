@@ -16,6 +16,7 @@ function path = Get_path(name)
     LaTeX = '/Users/rodrigo/Documents/TUe/thesis/latex/';
         
     LaTeX_FluctuationStrength = [LaTeX 'topic/fluctuation_strength/'];
+    LaTeX_Roughness           = [LaTeX 'topic/roughness/'];
 
     paths.APEX_stimulus     = [ APEX_shared 'stimulus/' ];
     paths.APEX_experiment   = [ APEX_shared 'experiment/' ];
@@ -39,6 +40,10 @@ function path = Get_path(name)
 
     paths.LaTeX_FluctuationStrength_Model_Data_Fitting_img = [ ...
         LaTeX_FluctuationStrength 'model/data_fitting/img/'
+    ];
+
+    paths.LaTeX_Roughness_Model_img = [ ...
+        LaTeX_Roughness 'model/img/'
     ];
     
     if ~isfield(paths,name)
