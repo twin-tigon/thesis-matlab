@@ -1,0 +1,12 @@
+down=1
+up=1
+stepsize=4/0,1/2
+stop=8
+numrevsformean=4
+intervals=3
+afc=1,2,3
+keys=37,39,40
+gap=300
+feedback=no
+pause=200
+practice=no

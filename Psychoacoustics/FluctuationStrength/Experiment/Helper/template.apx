@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apex:apex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://med.kuleuven.be/exporl/apex/3.0.4/experiment https://gilbert.med.kuleuven.be/apex/schemas/3.0.4/experiment.xsd"
+ xmlns:apex="http://med.kuleuven.be/exporl/apex/3.0.4/experiment" version="1">
+    <description></description>
+    <procedure xsi:type="apex:multiProcedureType">
+        <parameters>
+            <order>random</order>
+        </parameters>
+    </procedure>
+    <corrector xsi:type="apex:isequal"/>
+    <screens>
+        <general>
+            <repeatbutton>true</repeatbutton>
+            <showmenu>false</showmenu>
+            <fullscreen>true</fullscreen>
+        </general>
+        <reinforcement>
+            <progressbar>true</progressbar>
+            <feedback>false</feedback>
+        </reinforcement>
+        <style_apex>
+            QWidget#background {background-color: navy}
+            QLabel { font-family: "Segoe UI"; font-size: 18px}
+            QPushButton { font-family: "Segoe UI" }
+            #label_title { background-color: Navy; border: none; color: white; font-weight: bold; font-size: 24px }
+            #label_instructions { background-color: Navy; border: none; color: white }
+            #label_none { background-color: Navy; border: none; color: white; font-size: 14px }
+            #label_half { background-color: Navy; border: none; color: white; font-size: 14px }
+            #label_equal { background-color: Navy; border: none; color: white; font-size: 14px }
+            #label_double { background-color: Navy; border: none; color: white; font-size: 14px }
+        </style_apex>
+        <screen id="screen1">
+            <gridLayout height="5" width="1" rowstretch="2,8,1,8,2" id="main_layout">
+                <gridLayout width="3" height="2" columnstretch="1,8,1" rowstretch="1,2" y="1">
+                    <label id="label_title" x="2" y="2">
+                        <text>How much does the second sound fluctuate with respect to the first one?</text>
+                    </label>
+                </gridLayout>
+                <gridLayout width="3" height="1" columnstretch="1,8,1" rowstretch="1" y="2">
+                    <label id="label_instructions" x="2">
+                        <text>Drag the slider below to indicate your answer. Above the slider some reference positions are indicated.
+To repeat the sounds you can click the "Repeat stimulus" button on the bottom right part of the screen.
+
+Once you're done, click the "Next" button below to continue.</text>
+                    </label>
+                </gridLayout>
+                <gridLayout id="hints" width="5" height="1" columnstretch="1,1,1,1,1" rowstretch="1" y="3">
+                    <label id="label_none" x="1">
+                        <text>None
+&#9660;</text>
+                    </label>
+                    <label id="label_half" x="2">
+                        <text>Half
+&#9660;</text>
+                    </label>
+                    <label id="label_equal" x="3">
+                        <text>Equal
+&#9660;</text>
+                    </label>
+                    <label id="label_double" x="5">
+                        <text>Double
+&#9660;</text>
+                    </label>
+                </gridLayout>
+                <gridLayout width="3" height="1" columnstretch="1,8,1" rowstretch="1" y="4">
+                    <slider id="slider_1" x="2">
+                        <orientation>horizontal</orientation>
+                        <min>0</min>
+                        <max>200</max>
+                        <value>100</value>
+                        <tickinterval>25</tickinterval>
+                        <stepsize>1</stepsize>
+                        <pagesize>5</pagesize>
+                    </slider>
+                </gridLayout>
+                <gridLayout width="3" height="2" columnstretch="2,1,2" rowstretch="2,1" y="5">
+                    <button id="button_next" x="2" y="1">
+                        <fontsize>12</fontsize>
+                        <text>Next</text>
+                    </button>
+                </gridLayout>
+            </gridLayout>
+            <default_answer_element>button_next</default_answer_element>
+        </screen>
+    </screens>
+    <datablocks>
+        <uri_prefix source="apexconfig">stimuli</uri_prefix>
+        <datablock id="datablockcaltone">
+            <device>wavdevice</device>
+            <uri>tone-fc_1000-SPL_0-fs_44100-N_352800.wav</uri>
+        </datablock>
+    </datablocks>
+    <devices>
+        <device id="wavdevice" xsi:type="apex:wavDeviceType">
+            <driver>portaudio</driver>
+            <card>default</card>
+            <channels>2</channels>
+            <samplerate>44100</samplerate>
+        </device>
+    </devices>
+    <filters>
+        <filter xsi:type="apex:amplifier" id="ampMain">
+            <device>wavdevice</device>
+            <channels>2</channels>
+            <gain channel="0" id="gain0">0.0</gain>
+            <gain channel="1" id="gain1">0.0</gain>
+        </filter>
+    </filters>
+    <stimuli>
+        <fixed_parameters/>
+        <stimulus id="stimcaltone">
+            <datablocks>
+                <sequential>
+                    <datablock id="datablockcaltone"/>
+                </sequential>
+            </datablocks>
+        </stimulus>
+    </stimuli>
+    <connections>
+        <connection>
+            <from>
+                <id>_ALL_</id>
+                <channel>0</channel>
+            </from>
+            <to>
+                <id>ampMain</id>
+                <channel>0</channel>
+            </to>
+        </connection>
+        <connection>
+            <from>
+                <id>_ALL_</id>
+                <channel>0</channel>
+            </from>
+            <to>
+                <id>ampMain</id>
+                <channel>1</channel>
+            </to>
+        </connection>
+        <connection>
+            <from>
+                <id>ampMain</id>
+                <channel>0</channel>
+            </from>
+            <to>
+                <id>wavdevice</id>
+                <channel>0</channel>
+            </to>
+        </connection>
+        <connection>
+            <from>
+                <id>ampMain</id>
+                <channel>1</channel>
+            </from>
+            <to>
+                <id>wavdevice</id>
+                <channel>1</channel>
+            </to>
+        </connection>
+    </connections>
+    <calibration profile="outs-2">
+        <stimuli>
+            <stimulus id="stimcaltone"/>
+        </stimuli>
+        <parameters>
+            <parameter id="gain0">
+                <targetamplitude>97</targetamplitude>
+                <calibrationamplitude>97</calibrationamplitude>
+                <mute>-150.0</mute>
+                <max>50</max>
+            </parameter>
+            <parameter id="gain1">
+                <targetamplitude>97</targetamplitude>
+                <calibrationamplitude>97</calibrationamplitude>
+                <mute>-150.0</mute>
+                <max>50</max>
+            </parameter>
+        </parameters>
+    </calibration>
+    <results>
+        <xsltscript>slider.xsl</xsltscript>
+        <saveprocessedresults>true</saveprocessedresults>
+    </results>
+    <general>
+        <exitafter>true</exitafter>
+        <autosave>true</autosave>
+    </general>
+</apex:apex>

@@ -4,23 +4,21 @@ function path = Get_path(name)
 % Function to retrieve support paths that change according to the runtime
 % environment.
 % 
-% Author: Rodrigo García
+% Author: Rodrigo Garcï¿½a
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    paths = Get_TUe_paths;
+    paths = Get_Thesis_paths;
 
-    APEX_shared = ['/Users/rodrigo/VirtualBox VMs/Luxuria/share/'...
-        'APEX_shared/'];
-    
-    LaTeX = '/Users/rodrigo/Documents/TUe/thesis/latex/';
+    APEX_base = ['/Users/rodrigogarcialeon/Repositories/thesis-apex'];
+    LaTeX_base = '/Users/rodrigogarcialeon/Repositories/thesis-latex';
         
-    LaTeX_FluctuationStrength = [LaTeX 'topic/fluctuation_strength/'];
-    LaTeX_Roughness           = [LaTeX 'topic/roughness/'];
+    LaTeX_FluctuationStrength = [LaTeX_base 'topic/fluctuation_strength/'];
+    LaTeX_Roughness           = [LaTeX_base 'topic/roughness/'];
 
-    paths.APEX_stimulus     = [ APEX_shared 'stimulus/' ];
-    paths.APEX_experiment   = [ APEX_shared 'experiment/' ];
-    paths.APEX_result       = [ APEX_shared 'result/' ];
+    paths.APEX_stimulus     = [ APEX_base 'stimulus/' ];
+    paths.APEX_experiment   = [ APEX_base 'experiment/' ];
+    paths.APEX_result       = [ APEX_base 'result/' ];
     
     paths.LaTeX_FluctuationStrength_Experiment_img = [ ...
         LaTeX_FluctuationStrength 'experiment/img/'

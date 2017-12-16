@@ -1,0 +1,459 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.7.14)  13 OCT 2013 11:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**PsySound3-UserManual.tex
+(./PsySound3-UserManual.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip43
+\aftertitleunit=\skip44
+\ttl@plus=\dimen113
+\ttl@minus=\dimen114
+\ttl@toksa=\toks16
+\titlewidth=\dimen115
+\titlewidthlast=\dimen116
+\titlewidthfirst=\dimen117
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen118
+\WF@size=\dimen119
+\c@WF@wrappedlines=\count91
+\WF@box=\box27
+\WF@everypar=\toks17
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks18
+\float@box=\box28
+\@float@everytoks=\toks19
+\@floatcapt=\box29
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 3.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+phv on input line 100.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2013/05/20 v2.6c French support from the babel system
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
+\babel@savecnt=\count93
+\U@D=\dimen120
+)
+\FB@interchartokenstateORI=\count94
+Package babel Info: Making : an active character on input line 240.
+Package babel Info: Making ; an active character on input line 241.
+Package babel Info: Making ! an active character on input line 242.
+Package babel Info: Making ? an active character on input line 243.
+\FB@Mht=\dimen121
+\std@mcc=\count95
+\dec@mcc=\count96
+\listindentFB=\skip45
+\labelwidthFB=\skip46
+\leftmarginFB=\skip47
+\parindentFFN=\dimen122
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(./PsySound3-UserManual.aux
+
+LaTeX Warning: Label `fig:stage08' multiply defined.
+
+
+LaTeX Warning: Label `fig:stage10' multiply defined.
+
+
+LaTeX Warning: Label `fig:stage12' multiply defined.
+
+)
+\openout1 = `PsySound3-UserManual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 11.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen123
+\scratchbox=\box30
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen124
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \degres on input line 11.
+LaTeX Info: Redefining \dots on input line 11.
+LaTeX Info: Redefining \up on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+
+Overfull \hbox (19.91037pt too wide) in paragraph at lines 13--13
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
+(./PsySound3-UserManual.toc
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `PsySound3-UserManual.toc'.
+
+ [1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 21.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 28.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 48.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [2]
+<Step1-AddingFiles.jpg, id=12, 987.69pt x 624.3325pt>
+File: Step1-AddingFiles.jpg Graphic file (type jpg)
+
+<use Step1-AddingFiles.jpg>
+Package pdftex.def Info: Step1-AddingFiles.jpg used on input line 68.
+(pdftex.def)             Requested size: 216.81pt x 137.0392pt.
+ [3 <./Step1-AddingFiles.jpg>]
+<Step2-ChoosingMethod.jpg, id=17, 381.425pt x 128.48pt>
+File: Step2-ChoosingMethod.jpg Graphic file (type jpg)
+
+<use Step2-ChoosingMethod.jpg>
+Package pdftex.def Info: Step2-ChoosingMethod.jpg used on input line 85.
+(pdftex.def)             Requested size: 216.81pt x 73.03046pt.
+
+<Step2-SupplyLevel.jpg, id=18, 989.6975pt x 625.33624pt>
+File: Step2-SupplyLevel.jpg Graphic file (type jpg)
+
+<use Step2-SupplyLevel.jpg>
+Package pdftex.def Info: Step2-SupplyLevel.jpg used on input line 98.
+(pdftex.def)             Requested size: 216.81pt x 136.9828pt.
+
+<Step2-StandardiseTo70.jpg, id=19, 987.69pt x 624.3325pt>
+File: Step2-StandardiseTo70.jpg Graphic file (type jpg)
+
+<use Step2-StandardiseTo70.jpg>
+Package pdftex.def Info: Step2-StandardiseTo70.jpg used on input line 113.
+(pdftex.def)             Requested size: 216.81pt x 137.0392pt.
+ [4 <./Step2-ChoosingMethod.jpg>] [5 <./Step2-SupplyLevel.jpg> <./Step2-Standar
+diseTo70.jpg>]
+<Step3-ChooseAnalyser1.jpg, id=26, 975.645pt x 620.3175pt>
+File: Step3-ChooseAnalyser1.jpg Graphic file (type jpg)
+
+<use Step3-ChooseAnalyser1.jpg>
+Package pdftex.def Info: Step3-ChooseAnalyser1.jpg used on input line 126.
+(pdftex.def)             Requested size: 216.81pt x 137.84273pt.
+
+Overfull \hbox (15.24211pt too wide) in paragraph at lines 131--132
+[]\T1/ppl/m/n/10 AudioAnalysers are our name for the anal-y-sis mod-ules that w
+ork with au-dio files in PsySound3.
+ []
+
+<Step3-ClusterProfile.jpg, id=27, 805.0075pt x 499.8675pt>
+File: Step3-ClusterProfile.jpg Graphic file (type jpg)
+
+<use Step3-ClusterProfile.jpg>
+Package pdftex.def Info: Step3-ClusterProfile.jpg used on input line 142.
+(pdftex.def)             Requested size: 216.81pt x 134.62279pt.
+ [6 <./Step3-ChooseAnalyser1.jpg>]
+<Step3-TimeEstimate1.jpg, id=32, 973.6375pt x 621.32124pt>
+File: Step3-TimeEstimate1.jpg Graphic file (type jpg)
+
+<use Step3-TimeEstimate1.jpg>
+Package pdftex.def Info: Step3-TimeEstimate1.jpg used on input line 156.
+(pdftex.def)             Requested size: 216.81pt x 138.35019pt.
+
+<Step3-TimeEstimate2.jpg, id=33, 698.61pt x 308.15125pt>
+File: Step3-TimeEstimate2.jpg Graphic file (type jpg)
+
+<use Step3-TimeEstimate2.jpg>
+Package pdftex.def Info: Step3-TimeEstimate2.jpg used on input line 163.
+(pdftex.def)             Requested size: 216.81pt x 95.63403pt.
+ [7 <./Step3-ClusterProfile.jpg>] [8 <./Step3-TimeEstimate1.jpg> <./Step3-TimeE
+stimate2.jpg>]
+<Step4-Graphing1.jpg, id=41, 983.675pt x 618.31pt>
+File: Step4-Graphing1.jpg Graphic file (type jpg)
+ <use Step4-Graphing1.jpg>
+Package pdftex.def Info: Step4-Graphing1.jpg used on input line 194.
+(pdftex.def)             Requested size: 216.81pt x 136.27391pt.
+
+<Step4-OtherOutput.jpg, id=42, 985.6825pt x 622.325pt>
+File: Step4-OtherOutput.jpg Graphic file (type jpg)
+
+<use Step4-OtherOutput.jpg>
+Package pdftex.def Info: Step4-OtherOutput.jpg used on input line 203.
+(pdftex.def)             Requested size: 216.81pt x 136.88342pt.
+ [9 <./Step4-Graphing1.jpg>]
+Overfull \hbox (2.25224pt too wide) in paragraph at lines 228--229
+[]\T1/ppl/m/n/10 Once you have com-pleted these steps you can look at the anal-
+yser out-put in the \T1/pcr/m/n/10 obj.output
+ []
+
+[10 <./Step4-OtherOutput.jpg>]
+<AudioAnalysersDiagram.pdf, id=49, 600.2425pt x 377.41pt>
+File: AudioAnalysersDiagram.pdf Graphic file (type pdf)
+
+<use AudioAnalysersDiagram.pdf>
+Package pdftex.def Info: AudioAnalysersDiagram.pdf used on input line 271.
+(pdftex.def)             Requested size: 344.8162pt x 216.81pt.
+ [11
+
+ <./AudioAnalysersDiagram.pdf>]
+Overfull \hbox (19.68292pt too wide) in paragraph at lines 312--313
+[]\T1/ppl/m/n/10 To work out how many win-dows there will be for this par-tic-u
+-lar file use \T1/pcr/m/n/10 getNumWindows(obj)\T1/ppl/m/n/10 .
+ []
+
+[12] [13] [14] [15
+
+] [16] [17] (./PsySound3-UserManual.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3760 strings out of 493315
+ 52937 string characters out of 6137904
+ 124254 words of memory out of 5000000
+ 7124 multiletter control sequences out of 15000+600000
+ 20988 words of font info for 42 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,6n,28p,1093b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on PsySound3-UserManual.pdf (17 pages, 1308330 bytes).
+PDF statistics:
+ 123 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
